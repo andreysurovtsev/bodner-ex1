@@ -1,5 +1,11 @@
+// Package simplemath is my solution to the chapter 10
+// of Bodner's Learning Go book (modules)
 package simplemath
 
+// Add adds two ints
+// 
+// it has two parameters: integers being added
+// it returns their sum
 func Add(a, b int) int {
   return a + b
 }
